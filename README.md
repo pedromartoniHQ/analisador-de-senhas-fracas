@@ -1,4 +1,4 @@
-# Password Strength Checker 🔐
+# verifição de senhas fracas🔐
 
 Projeto em Python para análise da força de senhas.
 
