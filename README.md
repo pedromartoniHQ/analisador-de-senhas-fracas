@@ -20,7 +20,14 @@ Projeto em Python para análise da força de senhas.
 - Regex (re)
 
 
-## ▶️ Como executar
-```bash
-python analisador de senhas em python.py
+## ▶️ Como executar o projeto
 
+1. Certifique-se de ter o Python 3 instalado:
+```bash
+python --version
+ Clone o repositório:
+git clone https://github.com/pedromartorinHQ/analisador-de-senhas-fracas.git
+Acesse a pasta do projeto:
+cd analisador-de-senhas-fracas
+Execute o script:
+python main.py
