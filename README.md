@@ -22,4 +22,5 @@ Projeto em Python para análise da força de senhas.
 
 ## ▶️ Como executar
 ```bash
-python password_checker.py
+python analisador de senhas em python.
+
