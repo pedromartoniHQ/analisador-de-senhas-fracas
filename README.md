@@ -22,5 +22,5 @@ Projeto em Python para análise da força de senhas.
 
 ## ▶️ Como executar
 ```bash
-python analisador de senhas em python.
+python analisador de senhas em python.py
 
