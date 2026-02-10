@@ -1,6 +1,6 @@
 # Password Strength Checker 🔐
 
-Projeto em Python para análise da força de senhas, baseado em boas práticas de segurança.
+Projeto em Python para análise da força de senhas.
 
 ## 📌 Funcionalidades
 - Verifica comprimento mínimo
