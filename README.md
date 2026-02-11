@@ -1,6 +1,6 @@
-# Password Strength Checker 🔐
+# verifição de senhas fracas🔐
 
-Projeto em Python para análise da força de senhas, baseado em boas práticas de segurança.
+Projeto em Python para análise da força de senhas.
 
 ## 📌 Funcionalidades
 - Verifica comprimento mínimo
@@ -20,6 +20,14 @@ Projeto em Python para análise da força de senhas, baseado em boas práticas d
 - Regex (re)
 
 
-## ▶️ Como executar
+## ▶️ Como executar o projeto
+
+1. Certifique-se de ter o Python 3 instalado:
 ```bash
-python password_checker.py
+python --version
+ Clone o repositório:
+git clone https://github.com/pedromartorinHQ/analisador-de-senhas-fracas.git
+Acesse a pasta do projeto:
+cd analisador-de-senhas-fracas
+Execute o script:
+python main.py
