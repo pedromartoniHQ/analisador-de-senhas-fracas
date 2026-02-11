@@ -1,5 +1,4 @@
 from checker import verificar_senha, classificar_senha
-
 def main():
     print("=== Verificador de Força de Senha ===")
     senha = input("Digite a senha para análise: ")
