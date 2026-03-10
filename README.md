@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #análise de senhas fracas
 Nesta atualização, o código deixou de ser uma sequência de ifs repetitivos e passou a usar uma lógica mais profissional.
 Em vez de verificar cada critério manualmente, agora usei  um dicionário de Expressões Regulares (Regex) que estou aprendendo na faculdade. Isso permite que o código "percorra" as regras sozinho.
@@ -9,7 +9,6 @@ Melhorei a interface do terminal com emojis e um sistema de cores (🔴, 🟠, �
 Diversidade: Uso obrigatório de maiúsculas, minúsculas, números e símbolos.
 =======
 # verificação de senhas fracas🔐
->>>>>>> 6b1a822623168357192001e7cf074ffdcd56056e
 
 #FERRAMENTAS UTILIZADAS
 PYTHON  3.13.7
