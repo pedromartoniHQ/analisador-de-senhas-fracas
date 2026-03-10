@@ -1,17 +1,25 @@
-from checker import verificar_senha, classificar_senha
+from analise_de_senhas import analise_de_senhas
+
 def main():
-    print("=== Verificador de Força de Senha ===")
-    senha = input("Digite a senha para análise: ")
+    print("----check-up de segurança ---")
+    senha = input("digite a sua senha: ").strip()
+    
+    if not senha:
+        print("senha vazia")
+        return
+    
+    check, nivel = analise_de_senhas(senha)
 
-    criterios = verificar_senha(senha)
-    classificacao = classificar_senha(criterios)
+    print("\ncomo foi seu desempenho:")
+    for item, passou in check.items():
+        icone = "✅" if passou else "❌"
+        print(f"{icone} {item}")
 
-    print("\nResultado:")
-    for criterio, status in criterios.items():
-        print(f"- {criterio.replace('_', ' ').title()}: {'OK' if status else 'FALHOU'}")
-
-    print(f"\nClassificação final da senha: {classificacao}")
+    print(f"\nstatus final : {nivel}")
 
 
 if __name__ == "__main__":
     main()
+
+
+    

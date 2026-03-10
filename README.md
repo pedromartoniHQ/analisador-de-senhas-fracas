@@ -1,33 +1,22 @@
-# verifição de senhas fracas🔐
+#análise de senhas fracas
+Nesta atualização, o código deixou de ser uma sequência de ifs repetitivos e passou a usar uma lógica mais profissional.
+Em vez de verificar cada critério manualmente, agora usei  um dicionário de Expressões Regulares (Regex) que estou aprendendo na faculdade. Isso permite que o código "percorra" as regras sozinho.
+Melhorei a interface do terminal com emojis e um sistema de cores (🔴, 🟠, 🟡, 🟢, 🔵) para facilitar a leitura para os usuarios.
+ 
+ #Critérios de Segurança
+ Comprimento: Pelo menos 8 caracteres (o padrão ouro da web).
+Diversidade: Uso obrigatório de maiúsculas, minúsculas, números e símbolos.
 
-Projeto em Python para análise da força de senhas.
-
-## 📌 Funcionalidades
-- Verifica comprimento mínimo
-- Detecta letras maiúsculas e minúsculas
-- Detecta números
-- Detecta caracteres especiais
-- Classifica a senha como FRACA, MÉDIA ou FORTE
-
-## 🛡️ Conceitos de Cibersegurança
-- Boas práticas de autenticação
-- Validação de entrada
-- Uso de expressões regulares
-- Conscientização sobre senhas fracas
-
-## 🚀 Tecnologias
-- Python 3
-- Regex (re)
-
-
-## ▶️ Como executar o projeto
-
-1. Certifique-se de ter o Python 3 instalado:
-```bash
-python --version
- Clone o repositório:
-git clone https://github.com/pedromartorinHQ/analisador-de-senhas-fracas.git
-Acesse a pasta do projeto:
-cd analisador-de-senhas-fracas
-Execute o script:
-python main.py
+#FERRAMENTAS UTILIZADAS
+PYTHON  3.13.7
+BIBLIOTECA re
+#como rodar o projeto
+verifica-se de ter o python  3.13.7
+ Você pode verificar digitando no seu terminal ou CMD:python --v
+Copie o código do script.
+Crie um novo arquivo na sua pasta de preferência e nomeie-o como analise_de_senhas.py.
+Cole o código dentro desse arquivo e salve.
+Após rodar o comando, o programa pedirá que você digite uma senha:
+Digite a senha que deseja testar.
+Aperte Enter.
+O sistema exibirá o relatório de quais critérios você atingiu e o status final de segurança.
