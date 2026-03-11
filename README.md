@@ -29,4 +29,9 @@ Se você quiser testar o projeto no seu computador, siga estes passos simples:
 Você só precisa do **Python 3** instalado. Para conferir se já tem, digite no terminal:
 ```bash
 python --version
+2. Passo a Passo
+Baixe os arquivos main.py e analise_de_senhas.py para a mesma pasta.
+Abra o seu terminal ou CMD dentro dessa pasta.
+Digite o seguinte comando:
+python main.py
 
